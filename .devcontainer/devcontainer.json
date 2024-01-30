@@ -6,13 +6,15 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"rust": "latest"
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y netcat",
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y netcat && docker compose up -d",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
