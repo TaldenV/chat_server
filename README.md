@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Learning how to build and deploy different types of full-stack applications using Docker
+Learning how dev containers work as well as building and deploying backend applications using Docker
 
 ## How to run and install the project
 
